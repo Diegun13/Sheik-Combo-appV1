@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* background-color: #D6D46D; */
+  
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  text-align: left;
+  
+  /* background-color: #F4DFB6; */
+  
+  background-image: url("./assests/__sheik_the_legend_of_zelda_and_1_more_drawn_by_yng_su__sample-4d5f60a8ce50ed0e9d9d0b20cefa9938.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+
+
+
+
+/* 
+#D6D46D
+#F4DFB6
+#DE8F5F
+#9A4444 
+*/

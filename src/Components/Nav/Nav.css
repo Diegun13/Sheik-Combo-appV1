@@ -1,0 +1,24 @@
+.nav {
+   
+  }
+  
+  .menu {
+    list-style: none;
+  }
+  .menu :hover {
+    background-color: green;
+  }
+  
+  .menu > li {
+    padding: 10px 10px;
+  }
+  
+  .isActive {
+    padding: 7px 0px 10px 5px;
+  
+    text-align: left;
+    border-right: 5px solid blue;
+    border-bottom: 3px solid blue;
+  }
+
+  
